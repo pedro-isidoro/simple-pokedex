@@ -1,0 +1,130 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 128rem;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #5e5b5bad;
+    color: #333333;
+}
+
+body.dark-mode{
+    background-color: #212121;
+    color: #f5f5f5;
+}
+
+/*? HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem;
+}
+
+header .logo, header .image-button{
+    width: 3rem;
+    
+    transition: 0.2s ease-in-out;
+}
+
+header .logo:hover, header .image-button:hover, main .list-of-pokemon .pokemon-card:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+header #header-button{
+    background: none;
+    border: none;
+}
+
+/*? Main */
+main{
+    padding: 2.5rem;
+}
+
+main .list-of-pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+main .list-of-pokemon .pokemon-card{
+    background-color: #d8e3ec;
+    width: 20rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    border-radius: 1.5rem;
+    transition: 0.2s ease-in-out;
+}
+
+main .list-of-pokemon .pokemon-card:hover{
+    background-color: #86d9d6bb;
+}
+
+.dark-mode main .list-of-pokemon .pokemon-card{
+    background-color: #a8a8a8;
+}
+
+main .list-of-pokemon .pokemon-card .pokemon-info{
+    display: flex;
+    justify-content: space-between;
+    border: 0.1rem solid #333333;
+    border-radius: 1rem;
+}
+
+main .list-of-pokemon .pokemon-card .pokemon-info span{
+    padding: 0.5rem;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+
+
+main .list-of-pokemon .pokemon-card .pokemon-gif{
+    width: 9rem;
+    height: 9rem;
+}
+
+main .list-of-pokemon .pokemon-card .pokemon-types{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.8rem;
+}
+
+main .list-of-pokemon .pokemon-card .pokemon-types .type{
+    padding: 0.8rem;
+    border-radius: 1rem;
+}
+
+.grass{
+    background-color: #7ac74c;
+}
+
+.poison{
+    background-color: #df67ddfb;
+}
+
+.fire{
+    background-color: #ee8130;
+}
+
+.dragon{
+    background-color: rgb(14, 226, 226);
+}
+
+.water{
+    background-color: #6390f0;
+}
+
+.bug{
+    background-color: #a6b91a;
+}
+
+main .list-of-pokemon .pokemon-card .pokemon-description{
+    max-height: 8rem;
+    overflow-y: scroll;
+    font-size: 1.4rem;
+    padding-right: 1rem;
+}

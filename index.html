@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Pokédex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img src="./src/images/pokeball.png" alt="Pokeball Image" class="logo" />
+        </a>
+        <button id="header-button">
+            <img src="./src/images/sun.png" alt="Sun Image" class="image-button">
+        </button>
+    </header>
+    <main>
+        <ul class="list-of-pokemon">
+            <li class="pokemon-card">
+                <div class="pokemon-info">
+                    <span>Bulbasaur</span>
+                    <span>#001</span>
+                </div>
+                <img src="./src/images/bulbasaur.gif" alt="Bulbasaur Gif" class="pokemon-gif">
+                <ul class="pokemon-types">
+                    <li class="type grass">Grama</li>
+                    <li class="type poison">Veneno</li>
+                </ul>
+                <p class="pokemon-description">
+                    Há uma semente de planta em suas costas desde o dia que este pokémon nasce. A semente cresce lentamente.
+                </p>
+            </li>
+            <li class="pokemon-card">
+                <div class="pokemon-info">
+                    <span>Ivysaur</span>
+                    <span>#002</span>
+                </div>
+                <img src="./src/images/ivysaur.gif" alt="Ivysaur Gif" class="pokemon-gif">
+                <ul class="pokemon-types">
+                    <li class="type grass">Grama</li>
+                    <li class="type poison">Veneno</li>
+                </ul>
+                <p class="pokemon-description">
+                    Quando o bulbo em suas costas cresce grande, parece perder a capacidade de ficar de pé em suas patas traseiras.
+                </p>
+            </li>
+            <li class="pokemon-card">
+                <div class="pokemon-info">
+                    <span>Venusaur</span>
+                    <span>#003</span>
+                </div>
+                <img src="./src/images/venusaur.gif" alt="Venusaur Gif" class="pokemon-gif">
+                <ul class="pokemon-types">
+                    <li class="type grass">Grama</li>
+                    <li class="type poison">Veneno</li>
+                </ul>
+                <p class="pokemon-description">
+                    Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz solar.
+                </p>
+            </li>
+            <li class="pokemon-card">
+                <div class="pokemon-info">
+                    <span>Charmander</span>
+                    <span>#004</span>
+                </div>
+                <img src="./src/images/charmander.gif" alt="Charmander Gif" class="pokemon-gif">
+                <ul class="pokemon-types">
+                    <li class="type fire">Fogo</li>
+                </ul>
+                <p class="pokemon-description">
+                    Tem preferência por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta de sua cauda.                    
+                </p>
+            </li>
+            <li class="pokemon-card">
+                <div class="pokemon-info">
+                    <span>Charmeleon</span>
+                    <span>#005</span>
+                </div>
+                <img src="./src/images/charmeleon.gif" alt="Charmeleon Gif" class="pokemon-gif">
+                <ul class="pokemon-types">
+                    <li class="type fire">Fogo</li>
+                </ul>
+                <p class="pokemon-description">
+                    Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda ardente e corta com garras afiadas.
+                </p>
+            </li>
+            <li class="pokemon-card">
+                <div class="pokemon-info">
+                    <span>Charizard</span>
+                    <span>#006</span>
+                </div>
+                <img src="./src/images/charizard.gif" alt="Charizard Gif" class="pokemon-gif">
+                <ul class="pokemon-types">
+                    <li class="type fire">Fogo</li>
+                    <li class="type dragon">Dragão</li>
+                </ul>
+                <p class="pokemon-description">
+                    Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar incêndios florestais soprando chamas.
+                </p>
+            </li>
+            <li class="pokemon-card">
+                <div class="pokemon-info">
+                    <span>Squirtle</span>
+                    <span>#007</span>
+                </div>
+                <img src="./src/images/squirtle.gif" alt="Squirtle Gif" class="pokemon-gif">
+                <ul class="pokemon-types">
+                    <li class="type water">water</li>
+                </ul>
+                <p class="pokemon-description">
+                    Quando ele retrai seu longo pescoço em sua concha, ele esguicha água com força vigorosa.
+                </p>
+            </li>
+            <li class="pokemon-card">
+                <div class="pokemon-info">
+                    <span>Wartortle</span>
+                    <span>#008</span>
+                </div>
+                <img src="./src/images/wartortle.gif" alt="Wartortle Gif" class="pokemon-gif">
+                <ul class="pokemon-types">
+                    <li class="type water">water</li>
+                </ul>
+                <p class="pokemon-description">
+                    É reconhecido como um símbolo de longevidade. Se sua concha tem algas, esse Wartortle é muito antigo.
+                </p>
+            </li>
+            <li class="pokemon-card">
+                <div class="pokemon-info">
+                    <span>Blastoise</span>
+                    <span>#009</span>
+                </div>
+                <img src="./src/images/blastoise.gif" alt="Blastoise Gif" class="pokemon-gif">
+                <ul class="pokemon-types">
+                    <li class="type water">water</li>
+                </ul>
+                <p class="pokemon-description">
+                    Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.
+                </p>
+            </li>
+            <li class="pokemon-card">
+                <div class="pokemon-info">
+                    <span>Caterpie</span>
+                    <span>#010</span>
+                </div>
+                <img src="./src/images/caterpie.gif" alt="Caterpie Gif" class="pokemon-gif">
+                <ul class="pokemon-types">
+                    <li class="type bug">Bug</li>
+                </ul>
+                <p class="pokemon-description">
+                    Para proteção, ele libera um fedor horrível da antena em sua cabeça para afastar os inimigos.
+                </p>
+            </li>
+        </ul>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
