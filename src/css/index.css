@@ -60,7 +60,7 @@ main .list-of-pokemon .pokemon-card{
     transition: 0.2s ease-in-out;
 }
 
-main .list-of-pokemon .pokemon-card:hover{
+main .list-of-pokemon .pokemon-card:hover, .dark-mode main .list-of-pokemon .pokemon-card:hover{
     background-color: #86d9d6bb;
 }
 
