@@ -7,8 +7,12 @@
     - Tipo
     - E Descrição
 
-## Project
+## Tecnologias Utilizadas
+- HTML
+- CSS
+- JS
 
+## Project
 <img src="./src/images/project/Captura de tela 2024-04-04 151808.png">
 <br><br>
 <img src="./src/images/project/simple-pokedex.gif">
